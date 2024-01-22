@@ -1,5 +1,6 @@
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
+import { Chip } from "@/components/Chip";
 export default function Home() {
   return (
     <div>
@@ -20,6 +21,9 @@ export default function Home() {
             over 7 years, I still love it as if it was something new.
           </p>
         </div>
+      </div>
+      <div className="flex gap-2 items-center justify-center">
+        <Chip label={"About me"} />
       </div>
       <Footer />
     </div>
