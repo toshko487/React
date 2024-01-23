@@ -1,14 +1,10 @@
-import { Logo } from "../icons/logo";
-import { Close } from "../icons/close";
+import { Title } from "../Title";
 
 export function BarMenu() {
   return (
     <>
-      <div className="border-2 border-red-600 flex justify-between p-4">
-        <Logo />
-        <div className="sm:hidden">
-          <Close />
-        </div>
+      <div className="flex flex-col">
+        <Title />
       </div>
     </>
   );
