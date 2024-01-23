@@ -1,4 +1,4 @@
-export function Logo() {
+export function Figma() {
   return (
     <svg
       width="36"

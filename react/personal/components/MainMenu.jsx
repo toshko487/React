@@ -8,7 +8,7 @@ import { Close } from "./icons/close";
 export function MainMenu() {
   return (
     <>
-      <div className="hidden sm:flex">
+      <div className="hidden md:flex items-center">
         <Title />
       </div>
       <MobileMenu />
@@ -27,7 +27,7 @@ function MobileMenu() {
 
   return (
     <>
-      <div className="sm:hidden" onClick={openMenu}>
+      <div className="md:hidden" onClick={openMenu}>
         <Bar />
       </div>
       {visible && (

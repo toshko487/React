@@ -1,4 +1,4 @@
-export function gitHub() {
+export function GitHub() {
   return (
     <svg
       width="36"
